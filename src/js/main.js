@@ -1,6 +1,7 @@
-const JSZip = require("./jszip.min.js");
+import "../style.css";
+const JSZip = require("jszip");
 const Plist = require("@plist/plist");
-const FileSaver = require("./FileSaver.min.js");
+const FileSaver = require("file-saver");
 const editLoader = document.getElementById("editorLoader");
 const placeholder = document.getElementById("placeholder");
 const form = document.getElementById("plist-form");
